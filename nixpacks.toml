@@ -1,8 +1,9 @@
 [phases.setup]
-nixPkgs = ["nodejs_22"]
+nixPkgs = ["nodejs_22", "curl", "bash"]
+cmds = ["curl -fsSL https://bun.sh/install | bash"]
 
 [phases.install]
-cmds = ["bun install"]
+cmds = ["~/.bun/bin/bun install"]
 
 [start]
-cmd = "bun run server.ts"
+cmd = "~/.bun/bin/bun run server.ts"
