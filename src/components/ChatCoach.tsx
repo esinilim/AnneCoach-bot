@@ -301,7 +301,7 @@ export default function ChatCoach() {
           </div>
         </div>
         <p className="text-center text-xs mt-2" style={{ color: 'var(--subtle)' }}>
-          Telegram bot entegrasyonu yakında geliyor
+          Telegram'dan da koçuna ulaş: <a href="https://t.me/AnneCoach_bot" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', fontWeight: 600 }}>@AnneCoach_bot</a>
         </p>
       </div>
     </div>
