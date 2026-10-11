@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+contracts/out/
+contracts/cache/
+contracts/contract-metadata/
+*.log

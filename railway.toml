@@ -1,0 +1,9 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "bun install"
+
+[deploy]
+startCommand = "bun run server.ts"
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
