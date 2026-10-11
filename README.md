@@ -1,7 +1,7 @@
 ---
 title: AnneCoach
 emoji: 🤱
-colorFrom: orange
+colorFrom: red
 colorTo: pink
 sdk: static
 pinned: false
